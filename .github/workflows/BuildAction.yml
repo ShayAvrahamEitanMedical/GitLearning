@@ -46,4 +46,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: Build Output (${{ matrix.configuration }})
-        path: ConsoleApp1\ConsoleApp1\bin\${{ matrix.configuration }}\net9.0
+        path: ConsoleApp1\ConsoleApp1\bin\${{ matrix.configuration }}
