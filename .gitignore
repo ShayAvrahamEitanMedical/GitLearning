@@ -4,8 +4,8 @@
 
 **/.vs/**
 **/obj/**
-**/Release/**/*.*
-**/Debug/**/*.*
+**/Release/
+**/Debug/
 
 
 
