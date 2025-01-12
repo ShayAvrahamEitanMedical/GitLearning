@@ -37,7 +37,7 @@ jobs:
 
     # Build
     - name: Build 
-      run: dotnet build ConsoleApp1\ConsoleApp1.sln 
+      run: dotnet build ConsoleApp1\ConsoleApp1.sln -p:Configuration=Release
       
     - name: Execute unit tests
       run: dotnet test ConsoleApp1\ConsoleApp1.sln
@@ -46,4 +46,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: Build Output (${{ matrix.configuration }})
-        path: ConsoleApp1\ConsoleApp1\bin\${{ matrix.configuration }}
+        path: ConsoleApp1\ConsoleApp1\bin\Release\net9.0
