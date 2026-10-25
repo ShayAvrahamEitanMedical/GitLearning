@@ -97,3 +97,12 @@ C:\Users\Shay.Avraham\source\repos\ShayAvrahamEitanMedical\Rep\ConsoleApp1\TestP
 C:\Users\Shay.Avraham\source\repos\ShayAvrahamEitanMedical\Rep\ConsoleApp1\TestProject1\obj\Debug\net9.0\TestProject1.pdb
 C:\Users\Shay.Avraham\source\repos\ShayAvrahamEitanMedical\Rep\ConsoleApp1\TestProject1\obj\Debug\net9.0\TestProject1.genruntimeconfig.cache
 C:\Users\Shay.Avraham\source\repos\ShayAvrahamEitanMedical\Rep\ConsoleApp1\TestProject1\obj\Debug\net9.0\ref\TestProject1.dll
+C:\GitLearning\ConsoleApp1\TestProject1\obj\Debug\net9.0\TestProject1.csproj.AssemblyReference.cache
+C:\GitLearning\ConsoleApp1\TestProject1\obj\Debug\net9.0\TestProject1.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitLearning\ConsoleApp1\TestProject1\obj\Debug\net9.0\TestProject1.AssemblyInfoInputs.cache
+C:\GitLearning\ConsoleApp1\TestProject1\obj\Debug\net9.0\TestProject1.AssemblyInfo.cs
+C:\GitLearning\ConsoleApp1\TestProject1\obj\Debug\net9.0\TestProject1.csproj.CoreCompileInputs.cache
+C:\GitLearning\ConsoleApp1\TestProject1\obj\Debug\net9.0\TestProject1.sourcelink.json
+C:\GitLearning\ConsoleApp1\TestProject1\obj\Debug\net9.0\TestProject1.dll
+C:\GitLearning\ConsoleApp1\TestProject1\obj\Debug\net9.0\refint\TestProject1.dll
+C:\GitLearning\ConsoleApp1\TestProject1\obj\Debug\net9.0\TestProject1.pdb
