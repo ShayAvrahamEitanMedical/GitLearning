@@ -33,13 +33,20 @@ jobs:
     - name: Install .NET Core
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: 9.0.x
+        dotnet-version: 10.0
 
     # Build
     - name: Build 
       run: dotnet build ConsoleApp1\ConsoleApp1.sln -p:Configuration=Release
-      
-    - name: Execute unit tests
+
+    - name: Execute unit tests 2      
+      uses: "./templates-repo/.github/templates/dotnet/dotnet-test"
+        with:
+          solution-or-project-file: 'TestProject1.csproj'
+          tests-folder: 'VnVToolsUnitTests'
+          trx-file-name: 'TEST-VnVToolsUnitTests'
+          
+    - name: Execute unit tests 2
       run: dotnet test ConsoleApp1\ConsoleApp1.sln
 
     - name: Upload build artifacts
