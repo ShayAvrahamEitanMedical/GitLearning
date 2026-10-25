@@ -78,7 +78,7 @@
             },
             "xRetry.v3": {
               "target": "Package",
-              "version": "[1.0.0-rc3, )"
+              "version": "[1.0.0, )"
             },
             "xunit.runner.visualstudio": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -88,7 +88,7 @@
             },
             "xunit.v3": {
               "target": "Package",
-              "version": "[3.2.2, )"
+              "version": "[4.0.2, )"
             }
           },
           "imports": [
