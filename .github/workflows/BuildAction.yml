@@ -42,7 +42,7 @@ jobs:
 
           
     - name: Execute unit tests 2
-      run: dotnet test .\TestProject1\TestProject1.csproj  --results-directory TestResults --report-trx --coverlet
+      run: dotnet test ConsoleApp1\TestProject1\TestProject1.csproj  --results-directory TestResults --report-trx --coverlet
 
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
