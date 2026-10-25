@@ -42,7 +42,7 @@ jobs:
 
           
     - name: Execute unit tests 2
-      run: dotnet test ConsoleApp1\ConsoleApp1.sln
+      run: dotnet test ConsoleApp1\ConsoleApp1.sln --coverlet
 
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
