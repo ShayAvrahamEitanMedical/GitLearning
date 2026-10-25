@@ -556,6 +556,63 @@
           "buildMultiTargeting/Microsoft.Testing.Platform.MSBuild.targets": {}
         }
       },
+      "Microsoft.TestPlatform.Extensions.TrxLogger/18.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.TestPlatform.ObjectModel": "18.11.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/netstandard2.0/cs/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.0/de/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/es/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fr/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/it/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.0/ja/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.0/ko/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.0/pl/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/ru/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/tr/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
       "Microsoft.TestPlatform.ObjectModel/18.11.0": {
         "type": "package",
         "compile": {
@@ -2086,6 +2143,50 @@
         "microsoft.testing.platform.msbuild.nuspec"
       ]
     },
+    "Microsoft.TestPlatform.Extensions.TrxLogger/18.11.0": {
+      "sha512": "U76Zm8VFqGkyRuOzNx8KcIgh5fXXyaTcae2W8oMs5tFUjOoQ9b2L0K1uIOQqq/HbwA9iuXF8QehGb06tfxjGHA==",
+      "type": "package",
+      "path": "microsoft.testplatform.extensions.trxlogger/18.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "ThirdPartyNotices.txt",
+        "lib/net462/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.dll",
+        "lib/net462/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.xml",
+        "lib/net462/cs/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/net462/de/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/net462/es/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/net462/fr/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/net462/it/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/net462/ja/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/net462/ko/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/net462/pl/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/net462/pt-BR/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/net462/ru/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/net462/tr/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/net462/zh-Hans/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/net462/zh-Hant/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.xml",
+        "lib/netstandard2.0/cs/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/netstandard2.0/de/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/netstandard2.0/es/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/netstandard2.0/fr/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/netstandard2.0/it/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/netstandard2.0/ja/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/netstandard2.0/ko/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/netstandard2.0/pl/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/netstandard2.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/netstandard2.0/ru/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/netstandard2.0/tr/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/netstandard2.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "lib/netstandard2.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.resources.dll",
+        "microsoft.testplatform.extensions.trxlogger.18.11.0.nupkg.sha512",
+        "microsoft.testplatform.extensions.trxlogger.nuspec"
+      ]
+    },
     "Microsoft.TestPlatform.ObjectModel/18.11.0": {
       "sha512": "BXBHYnwSOljKute8UYCMXOLAdB7awxEMppPSpqOF1ZxLD/W/OH+vTBgFaXA7q0aditJTVXSMVenel+wOkEIyNg==",
       "type": "package",
@@ -2759,6 +2860,7 @@
       "FluentAssertions >= 7.2.0 <= 7.2.0",
       "FluentAssertions.Analyzers >= 0.34.1",
       "Microsoft.NET.Test.Sdk >= 18.11.0",
+      "Microsoft.TestPlatform.Extensions.TrxLogger >= 18.11.0",
       "Moq >= 4.21.0",
       "coverlet.MTP >= 10.1.0",
       "xRetry.v3 >= 1.0.0",
@@ -2829,6 +2931,10 @@
             "version": "[0.34.1, )"
           },
           "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[18.11.0, )"
+          },
+          "Microsoft.TestPlatform.Extensions.TrxLogger": {
             "target": "Package",
             "version": "[18.11.0, )"
           },
