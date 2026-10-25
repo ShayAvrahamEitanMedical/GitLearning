@@ -41,10 +41,10 @@ jobs:
 
     - name: Execute unit tests 2      
       uses: "./templates-repo/.github/templates/dotnet/dotnet-test"
-        with:
-          solution-or-project-file: 'TestProject1.csproj'
-          tests-folder: 'VnVToolsUnitTests'
-          trx-file-name: 'TEST-VnVToolsUnitTests'
+      with:
+        solution-or-project-file: 'TestProject1.csproj'
+        tests-folder: 'VnVToolsUnitTests'
+        trx-file-name: 'TEST-VnVToolsUnitTests'
           
     - name: Execute unit tests 2
       run: dotnet test ConsoleApp1\ConsoleApp1.sln
