@@ -49,3 +49,9 @@ jobs:
       with:
         name: Build Output (${{ matrix.configuration }})
         path: ConsoleApp1\ConsoleApp1\bin\Release\net10.0
+        
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: Test Results
+        path: TestResults
