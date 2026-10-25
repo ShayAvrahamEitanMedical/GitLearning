@@ -1,8 +1,10 @@
-﻿namespace TestProject1
+﻿using xRetry.v3;
+
+namespace TestProject1
 {
     public class UnitTest1
     {
-        [Fact]
+        [RetryFact]
         public void Test1()
         {
         }
