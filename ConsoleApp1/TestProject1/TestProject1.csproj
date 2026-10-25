@@ -17,6 +17,8 @@
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		  <PrivateAssets>all</PrivateAssets>
 	  </PackageReference>
+	  <PackageReference Include="Microsoft.Testing.Extensions.TrxReport" Version="2.5.1" />
+	  <PackageReference Include="Microsoft.Testing.Extensions.TrxReport.Abstractions" Version="2.5.1" />
 	  <PackageReference Include="Microsoft.TestPlatform.Extensions.TrxLogger" Version="18.11.0" />
 	  <PackageReference Include="Moq">
 		  <Version>4.21.0</Version>
@@ -29,6 +31,10 @@
 		  <PrivateAssets>all</PrivateAssets>
 	  </PackageReference>
 	  <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleApp1\ConsoleApp1.csproj" />
   </ItemGroup>
 
   <ItemGroup>

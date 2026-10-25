@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jhOaENK5nAk=",
+  "dgSpecHash": "+0xXlicbj7I=",
   "success": true,
   "projectFilePath": "C:\\GitLearning\\ConsoleApp1\\TestProject1\\TestProject1.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "C:\\Users\\Shay.Avraham\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.12\\microsoft.extensions.primitives.10.0.12.nupkg.sha512",
     "C:\\Users\\Shay.Avraham\\.nuget\\packages\\microsoft.net.test.sdk\\18.11.0\\microsoft.net.test.sdk.18.11.0.nupkg.sha512",
     "C:\\Users\\Shay.Avraham\\.nuget\\packages\\microsoft.testing.extensions.telemetry\\2.5.1\\microsoft.testing.extensions.telemetry.2.5.1.nupkg.sha512",
+    "C:\\Users\\Shay.Avraham\\.nuget\\packages\\microsoft.testing.extensions.trxreport\\2.5.1\\microsoft.testing.extensions.trxreport.2.5.1.nupkg.sha512",
     "C:\\Users\\Shay.Avraham\\.nuget\\packages\\microsoft.testing.extensions.trxreport.abstractions\\2.5.1\\microsoft.testing.extensions.trxreport.abstractions.2.5.1.nupkg.sha512",
     "C:\\Users\\Shay.Avraham\\.nuget\\packages\\microsoft.testing.platform\\2.5.1\\microsoft.testing.platform.2.5.1.nupkg.sha512",
     "C:\\Users\\Shay.Avraham\\.nuget\\packages\\microsoft.testing.platform.msbuild\\2.5.1\\microsoft.testing.platform.msbuild.2.5.1.nupkg.sha512",

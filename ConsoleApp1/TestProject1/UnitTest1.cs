@@ -7,6 +7,7 @@ namespace TestProject1
         [RetryFact]
         public void Test1()
         {
+            Hjj.JJ();
         }
     }
 }
